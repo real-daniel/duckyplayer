@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PlatformTarget>x64</PlatformTarget>
+    <ClrMdVersion Condition="'$(ClrMdVersion)' == ''">4.1.745802</ClrMdVersion>
+  </PropertyGroup>
+  <ItemGroup><PackageReference Include="Microsoft.Diagnostics.Runtime" Version="$(ClrMdVersion)" /></ItemGroup>
+</Project>

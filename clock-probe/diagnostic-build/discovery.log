@@ -1,0 +1,174 @@
+2026-10-01T23:38:55.9635888-04:00 Discovery PID 24860; ClrMD Microsoft.Diagnostics.Runtime, Version=4.1.14.45802, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2026-10-01T23:38:56.1309262-04:00 Runtime: 42.42.42.42424; flavor Core; module C:\Users\peter\AppData\Local\osulazer\current\coreclr.dll
+2026-10-01T23:38:56.1313308-04:00 Creating diagnostic runtime (automatic DAC selection)
+2026-10-01T23:38:56.2515891-04:00 Loaded diagnostic module: C:\Users\peter\AppData\Local\Temp\zbylmied.4jk\mscordaccore.dll; 10,0,1226,42308 @Commit: 95017c711e6afc1085133d440e42b4bd78155701
+2026-10-01T23:38:56.2519475-04:00 Opening managed heap
+2026-10-01T23:38:56.2845129-04:00 System.IO.InvalidDataException: Unable to create a ClrHeap for this runtime. This may indicate that the CLR wasn't fully initialized at the time the dump was taken, or the dump is corrupt or truncated.
+   at Microsoft.Diagnostics.Runtime.ClrRuntime.get_Heap()
+   at ClockProbe.Program.Scan(Int32 pid) in C:\Users\peter\Desktop\Code\osureplay\clock-probe\Program.cs:line 65
+   at ClockProbe.Program.Main(String[] args) in C:\Users\peter\Desktop\Code\osureplay\clock-probe\Program.cs:line 44
+2026-10-01T23:40:31.0768665-04:00 Discovery PID 24860; ClrMD Microsoft.Diagnostics.Runtime, Version=4.1.14.45802, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2026-10-01T23:40:31.3261901-04:00 Runtime: 42.42.42.42424; flavor Core; module C:\Users\peter\AppData\Local\osulazer\current\coreclr.dll
+2026-10-01T23:40:31.3267063-04:00 Creating diagnostic runtime (automatic DAC selection)
+2026-10-01T23:40:31.4804582-04:00 Loaded diagnostic module: C:\Users\peter\AppData\Local\Temp\oeulybr3.yux\mscordaccore.dll; 10,0,1226,42308 @Commit: 95017c711e6afc1085133d440e42b4bd78155701
+2026-10-01T23:40:31.4810010-04:00 Opening managed heap
+2026-10-01T23:40:31.4870930-04:00 GetGCHeapData: HRESULT=E_FAIL
+2026-10-01T23:40:31.4875292-04:00   ServerMode=0
+2026-10-01T23:40:31.4877096-04:00   GCStructuresValid=0
+2026-10-01T23:40:31.4881535-04:00   HeapCount=0
+2026-10-01T23:40:31.4883794-04:00   MaxGeneration=0
+2026-10-01T23:40:31.4892437-04:00 GetCommonMethodTables: HRESULT=S_OK
+2026-10-01T23:40:31.4898529-04:00   ArrayMethodTable=0x7ffab88a2308
+2026-10-01T23:40:31.4901192-04:00   StringMethodTable=0x7ffab88cdd88
+2026-10-01T23:40:31.4903319-04:00   ObjectMethodTable=0x7ffab87d4738
+2026-10-01T23:40:31.4905300-04:00   ExceptionMethodTable=0x7ffab88d05d8
+2026-10-01T23:40:31.4907212-04:00   FreeMethodTable=0x1ecec31fca0
+2026-10-01T23:40:31.5228917-04:00 System.IO.InvalidDataException: Unable to create a ClrHeap for this runtime. This may indicate that the CLR wasn't fully initialized at the time the dump was taken, or the dump is corrupt or truncated.
+   at Microsoft.Diagnostics.Runtime.ClrRuntime.get_Heap()
+   at ClockProbe.Program.Scan(Int32 pid) in C:\Users\peter\Desktop\Code\osureplay\clock-probe\Program.cs:line 88
+   at ClockProbe.Program.Main(String[] args) in C:\Users\peter\Desktop\Code\osureplay\clock-probe\Program.cs:line 66
+2026-10-01T23:49:11.7066896-04:00 System.IO.IOException: Unsupported contract descriptor format
+   at ClockProbe.RuntimeMetadata.Inspect(Int32 pid) in C:\Users\peter\Desktop\Code\osureplay\clock-probe\RuntimeMetadata.cs:line 48
+   at ClockProbe.Program.Main(String[] args) in C:\Users\peter\Desktop\Code\osureplay\clock-probe\Program.cs:line 42
+2026-10-01T23:49:26.4037935-04:00 System.IO.IOException: Unsupported contract descriptor format: 444E434344414300010000004A2A000020D17718FB7F0000190000000000000040927718FB7F0000; Runtime: C:\Users\peter\AppData\Local\osulazer\current\coreclr.dll
+PDB: 1b2a0238-cd55-46eb-a2a2-723acef07a1f/1: D:\a\Satori\Satori\artifacts\obj\coreclr\windows.x64.Release\dlls\mscoree\coreclr\coreclr.pdb
+
+   at ClockProbe.RuntimeMetadata.Inspect(Int32 pid) in C:\Users\peter\Desktop\Code\osureplay\clock-probe\RuntimeMetadata.cs:line 48
+   at ClockProbe.Program.Main(String[] args) in C:\Users\peter\Desktop\Code\osureplay\clock-probe\Program.cs:line 42
+2026-10-01T23:49:46.4707030-04:00 System.InvalidOperationException: The requested operation requires an element of type 'Number', but the target element has type 'String'.
+   at System.Text.Json.ThrowHelper.ThrowJsonElementWrongTypeException(JsonTokenType expectedType, JsonTokenType actualType)
+   at System.Text.Json.JsonDocument.TryGetValue(Int32 index, Int32& value)
+   at ClockProbe.RuntimeMetadata.Inspect(Int32 pid) in C:\Users\peter\Desktop\Code\osureplay\clock-probe\RuntimeMetadata.cs:line 64
+   at ClockProbe.Program.Main(String[] args) in C:\Users\peter\Desktop\Code\osureplay\clock-probe\Program.cs:line 42
+2026-10-01T23:50:03.4425667-04:00 Runtime: C:\Users\peter\AppData\Local\osulazer\current\coreclr.dll
+PDB: 1b2a0238-cd55-46eb-a2a2-723acef07a1f/1: D:\a\Satori\Satori\artifacts\obj\coreclr\windows.x64.Release\dlls\mscoree\coreclr\coreclr.pdb
+Contract globals related to GC:
+  GCInfoVersion: ["0x4","uint32"]
+  SOSBreakingChangeVersion: ["0x5","uint8"]
+  StressLogChunkSize: ["0x8000","uint32"]
+  GCThread: [[5],"pointer"]
+    pointer[5]=0x7FFB187EBA28
+    first 8 bytes: 0000000000000000
+
+2026-10-01T23:52:30.7613097-04:00 Discovery PID 29584; ClrMD Microsoft.Diagnostics.Runtime, Version=4.1.14.45802, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2026-10-01T23:52:30.8230756-04:00 Runtime: 10.0.1226.42308; flavor Core; module C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.12\coreclr.dll
+2026-10-01T23:52:30.8234132-04:00 Creating diagnostic runtime (automatic DAC selection)
+2026-10-01T23:52:30.9453597-04:00 Loaded diagnostic module: C:\Users\peter\AppData\Local\Temp\yuxirw5p.xff\mscordaccore.dll; 10,0,1226,42308 @Commit: 95017c711e6afc1085133d440e42b4bd78155701
+2026-10-01T23:52:30.9457239-04:00 Opening managed heap
+2026-10-01T23:52:30.9910155-04:00 Heap available; CanWalkHeap=True
+2026-10-01T23:52:31.0343071-04:00 Discovery complete: 1 candidates in 0.04s
+2026-10-01T23:52:31.4980859-04:00 Discovery PID 24860; ClrMD Microsoft.Diagnostics.Runtime, Version=4.1.14.45802, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2026-10-01T23:52:31.6825594-04:00 Runtime: 42.42.42.42424; flavor Core; module C:\Users\peter\AppData\Local\osulazer\current\coreclr.dll
+2026-10-01T23:52:31.6829144-04:00 Creating diagnostic runtime (automatic DAC selection)
+2026-10-01T23:52:31.7840827-04:00 Loaded diagnostic module: C:\Users\peter\AppData\Local\Temp\453dyjhe.f2v\mscordaccore.dll; 10,0,1226,42308 @Commit: 95017c711e6afc1085133d440e42b4bd78155701
+2026-10-01T23:52:31.7844369-04:00 Opening managed heap
+2026-10-01T23:52:31.7911927-04:00 GetGCHeapData: HRESULT=E_FAIL
+2026-10-01T23:52:31.7918043-04:00   ServerMode=0
+2026-10-01T23:52:31.7922062-04:00   GCStructuresValid=0
+2026-10-01T23:52:31.7925082-04:00   HeapCount=0
+2026-10-01T23:52:31.7927082-04:00   MaxGeneration=0
+2026-10-01T23:52:31.7939328-04:00 GetCommonMethodTables: HRESULT=S_OK
+2026-10-01T23:52:31.7949318-04:00   ArrayMethodTable=0x7ffab88a2308
+2026-10-01T23:52:31.7952286-04:00   StringMethodTable=0x7ffab88cdd88
+2026-10-01T23:52:31.7954526-04:00   ObjectMethodTable=0x7ffab87d4738
+2026-10-01T23:52:31.7956679-04:00   ExceptionMethodTable=0x7ffab88d05d8
+2026-10-01T23:52:31.7958932-04:00   FreeMethodTable=0x1ecec31fca0
+2026-10-01T23:52:31.8982995-04:00 Runtime: C:\Users\peter\AppData\Local\osulazer\current\coreclr.dll
+PDB: 1b2a0238-cd55-46eb-a2a2-723acef07a1f/1: D:\a\Satori\Satori\artifacts\obj\coreclr\windows.x64.Release\dlls\mscoree\coreclr\coreclr.pdb
+Contract globals related to GC:
+  GCInfoVersion: ["0x4","uint32"]
+  SOSBreakingChangeVersion: ["0x5","uint8"]
+  StressLogChunkSize: ["0x8000","uint32"]
+  GCThread: [[5],"pointer"]
+    pointer[5]=0x7FFB187EBA28
+    first 8 bytes: 0000000000000000
+
+2026-10-01T23:52:31.9152151-04:00 System.IO.IOException: The runtime diagnostic DLL could not expose the managed heap. See Diagnostics for the failing call; no clocks were discovered.
+ ---> System.IO.InvalidDataException: Unable to create a ClrHeap for this runtime. This may indicate that the CLR wasn't fully initialized at the time the dump was taken, or the dump is corrupt or truncated.
+   at Microsoft.Diagnostics.Runtime.ClrRuntime.get_Heap()
+   at ClockProbe.Program.Scan(Int32 pid) in C:\Users\peter\Desktop\Code\osureplay\clock-probe\Program.cs:line 94
+   --- End of inner exception stack trace ---
+   at ClockProbe.Program.Scan(Int32 pid) in C:\Users\peter\Desktop\Code\osureplay\clock-probe\Program.cs:line 100
+   at ClockProbe.Program.Main(String[] args) in C:\Users\peter\Desktop\Code\osureplay\clock-probe\Program.cs:line 72
+2026-10-01T23:57:16.0605504-04:00 Discovery PID 24860; ClrMD Microsoft.Diagnostics.Runtime, Version=4.1.14.45802, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2026-10-01T23:57:16.2594420-04:00 Runtime: 42.42.42.42424; flavor Core; module C:\Users\peter\AppData\Local\osulazer\current\coreclr.dll
+2026-10-01T23:57:16.2598275-04:00 Creating diagnostic runtime (automatic DAC selection)
+2026-10-01T23:57:16.3824267-04:00 Loaded diagnostic module: C:\Users\peter\AppData\Local\Temp\cbs2cb1e.as5\mscordaccore.dll; 10,0,1226,42308 @Commit: 95017c711e6afc1085133d440e42b4bd78155701
+2026-10-01T23:57:16.3827411-04:00 Opening managed heap
+2026-10-01T23:57:16.3874430-04:00 GetGCHeapData: HRESULT=E_FAIL
+2026-10-01T23:57:16.3878668-04:00   ServerMode=0
+2026-10-01T23:57:16.3880383-04:00   GCStructuresValid=0
+2026-10-01T23:57:16.3883217-04:00   HeapCount=0
+2026-10-01T23:57:16.3887996-04:00   MaxGeneration=0
+2026-10-01T23:57:16.3897204-04:00 GetCommonMethodTables: HRESULT=S_OK
+2026-10-01T23:57:16.3905089-04:00   ArrayMethodTable=0x7ffab88a2308
+2026-10-01T23:57:16.3908771-04:00   StringMethodTable=0x7ffab88cdd88
+2026-10-01T23:57:16.3910374-04:00   ObjectMethodTable=0x7ffab87d4738
+2026-10-01T23:57:16.3912208-04:00   ExceptionMethodTable=0x7ffab88d05d8
+2026-10-01T23:57:16.3914562-04:00   FreeMethodTable=0x1ecec31fca0
+2026-10-01T23:57:16.5087403-04:00 Runtime: C:\Users\peter\AppData\Local\osulazer\current\coreclr.dll
+PDB: 1b2a0238-cd55-46eb-a2a2-723acef07a1f/1: D:\a\Satori\Satori\artifacts\obj\coreclr\windows.x64.Release\dlls\mscoree\coreclr\coreclr.pdb
+Contract globals related to GC:
+  GCInfoVersion: ["0x4","uint32"]
+  SOSBreakingChangeVersion: ["0x5","uint8"]
+  StressLogChunkSize: ["0x8000","uint32"]
+  GCThread: [[5],"pointer"]
+    pointer[5]=0x7FFB187EBA28
+    first 8 bytes: 0000000000000000
+
+2026-10-01T23:57:16.5090352-04:00 Using targeted Satori 2026.911.0 discovery (no GC heap API).
+2026-10-01T23:57:16.5469024-04:00 Target osu.Framework.Timing.FramedClock: MT=0x7FFAB916B440, <CurrentTime>k__BackingField object offset=48
+2026-10-01T23:57:16.5546987-04:00 Target osu.Framework.Audio.Track.TrackBass: MT=0x7FFABB647C18, currentTime object offset=168
+2026-10-01T23:57:16.5883056-04:00 Target osu.Game.Rulesets.UI.FrameStabilityContainer: MT=0x7FFABCE1A3F0, framedClock object offset=856
+2026-10-01T23:57:25.1626137-04:00 Targeted discovery: 1353 MiB, 9 patterns, 5 validated candidates, 8.65s
+2026-10-01T23:58:55.2237411-04:00 Discovery PID 24664; ClrMD Microsoft.Diagnostics.Runtime, Version=4.1.14.45802, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2026-10-01T23:58:55.2784033-04:00 Runtime: 10.0.1226.42308; flavor Core; module C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.12\coreclr.dll
+2026-10-01T23:58:55.2788727-04:00 Creating diagnostic runtime (automatic DAC selection)
+2026-10-01T23:58:55.3783760-04:00 Loaded diagnostic module: C:\Users\peter\AppData\Local\Temp\jbzcrbua.d4k\mscordaccore.dll; 10,0,1226,42308 @Commit: 95017c711e6afc1085133d440e42b4bd78155701
+2026-10-01T23:58:55.3787638-04:00 Opening managed heap
+2026-10-01T23:58:55.4238573-04:00 Heap available; CanWalkHeap=True
+2026-10-01T23:58:55.4615575-04:00 Discovery complete: 1 candidates in 0.04s
+2026-10-01T23:58:55.6065265-04:00 Target osu.Game.Rulesets.UI.FrameStabilityContainer: MT=0x7FFAB419ECE8, framedClock object offset=8
+2026-10-01T23:58:55.6069696-04:00 Target osu.Framework.Timing.FramedClock: MT=0x7FFAB4338BE0, <CurrentTime>k__BackingField object offset=8
+2026-10-01T23:58:55.6361574-04:00 Targeted discovery: 4 MiB, 5 patterns, 1 validated candidates, 0.04s
+2026-10-01T23:58:55.9716304-04:00 Discovery PID 24860; ClrMD Microsoft.Diagnostics.Runtime, Version=4.1.14.45802, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2026-10-01T23:58:56.1438315-04:00 Runtime: 42.42.42.42424; flavor Core; module C:\Users\peter\AppData\Local\osulazer\current\coreclr.dll
+2026-10-01T23:58:56.1443094-04:00 Creating diagnostic runtime (automatic DAC selection)
+2026-10-01T23:58:56.2487054-04:00 Loaded diagnostic module: C:\Users\peter\AppData\Local\Temp\pjcogb5i.ajo\mscordaccore.dll; 10,0,1226,42308 @Commit: 95017c711e6afc1085133d440e42b4bd78155701
+2026-10-01T23:58:56.2490024-04:00 Opening managed heap
+2026-10-01T23:58:56.2541522-04:00 GetGCHeapData: HRESULT=E_FAIL
+2026-10-01T23:58:56.2546105-04:00   ServerMode=0
+2026-10-01T23:58:56.2548422-04:00   GCStructuresValid=0
+2026-10-01T23:58:56.2550627-04:00   HeapCount=0
+2026-10-01T23:58:56.2552687-04:00   MaxGeneration=0
+2026-10-01T23:58:56.2560923-04:00 GetCommonMethodTables: HRESULT=S_OK
+2026-10-01T23:58:56.2566242-04:00   ArrayMethodTable=0x7ffab88a2308
+2026-10-01T23:58:56.2568236-04:00   StringMethodTable=0x7ffab88cdd88
+2026-10-01T23:58:56.2571404-04:00   ObjectMethodTable=0x7ffab87d4738
+2026-10-01T23:58:56.2573749-04:00   ExceptionMethodTable=0x7ffab88d05d8
+2026-10-01T23:58:56.2575802-04:00   FreeMethodTable=0x1ecec31fca0
+2026-10-01T23:58:56.3750646-04:00 Runtime: C:\Users\peter\AppData\Local\osulazer\current\coreclr.dll
+PDB: 1b2a0238-cd55-46eb-a2a2-723acef07a1f/1: D:\a\Satori\Satori\artifacts\obj\coreclr\windows.x64.Release\dlls\mscoree\coreclr\coreclr.pdb
+Contract globals related to GC:
+  GCInfoVersion: ["0x4","uint32"]
+  SOSBreakingChangeVersion: ["0x5","uint8"]
+  StressLogChunkSize: ["0x8000","uint32"]
+  GCThread: [[5],"pointer"]
+    pointer[5]=0x7FFB187EBA28
+    first 8 bytes: 0000000000000000
+
+2026-10-01T23:58:56.3755044-04:00 Using targeted Satori 2026.911.0 discovery (no GC heap API).
+2026-10-01T23:58:56.4261857-04:00 Target osu.Framework.Timing.FramedClock: MT=0x7FFAB916B440, <CurrentTime>k__BackingField object offset=48
+2026-10-01T23:58:56.4358744-04:00 Target osu.Framework.Audio.Track.TrackBass: MT=0x7FFABB647C18, currentTime object offset=168
+2026-10-01T23:58:56.4738554-04:00 Target osu.Game.Rulesets.UI.FrameStabilityContainer: MT=0x7FFABCE1A3F0, framedClock object offset=856
+2026-10-01T23:59:05.0410838-04:00 Targeted discovery: 1355 MiB, 9 patterns, 5 validated candidates, 8.66s
+2026-10-02T10:07:25.2781711-04:00 Discovery PID 29416; ClrMD Microsoft.Diagnostics.Runtime, Version=4.1.14.45802, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2026-10-02T10:07:25.3511910-04:00 Runtime: 10.0.1226.42308; flavor Core; module C:\Program Files\dotnet\shared\Microsoft.NETCore.App\10.0.12\coreclr.dll
+2026-10-02T10:07:25.3516756-04:00 Creating diagnostic runtime (automatic DAC selection)
+2026-10-02T10:07:25.4748675-04:00 Loaded diagnostic module: C:\Users\peter\AppData\Local\Temp\neusjk3b.yq0\mscordaccore.dll; 10,0,1226,42308 @Commit: 95017c711e6afc1085133d440e42b4bd78155701
+2026-10-02T10:07:25.4751654-04:00 Opening managed heap
+2026-10-02T10:07:25.5345747-04:00 Heap available; CanWalkHeap=True
+2026-10-02T10:07:25.5843624-04:00 Discovery complete: 1 candidates in 0.05s
+2026-10-02T10:07:25.7607340-04:00 Target osu.Game.Rulesets.UI.FrameStabilityContainer: MT=0x7FFD89FF0680, framedClock object offset=8
+2026-10-02T10:07:25.7612246-04:00 Target osu.Framework.Timing.FramedClock: MT=0x7FFD8A128BE0, <CurrentTime>k__BackingField object offset=8
+2026-10-02T10:07:25.8009352-04:00 Targeted discovery: 4 MiB, 6 patterns, 1 validated candidates, 0.05s

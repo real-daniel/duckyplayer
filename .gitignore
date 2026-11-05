@@ -1,0 +1,5 @@
+/build/
+/lib/
+/.vs/
+*.user
+*.suo

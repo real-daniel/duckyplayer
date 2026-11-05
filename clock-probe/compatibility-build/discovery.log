@@ -1,0 +1,20 @@
+2026-10-01T23:41:40.0339906-04:00 Discovery PID 24860; ClrMD Microsoft.Diagnostics.Runtime, Version=4.0.14.32401, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+2026-10-01T23:41:40.2476429-04:00 Runtime: 42.42.42.42424; flavor Core; module C:\Users\peter\AppData\Local\osulazer\current\coreclr.dll
+2026-10-01T23:41:40.2481948-04:00 Creating diagnostic runtime (automatic DAC selection)
+2026-10-01T23:41:40.3654309-04:00 Loaded diagnostic module: C:\Users\peter\AppData\Local\osulazer\current\mscordaccore.dll; 10,0,1226,42308 @Commit: 95017c711e6afc1085133d440e42b4bd78155701
+2026-10-01T23:41:40.3657579-04:00 Opening managed heap
+2026-10-01T23:41:40.3713462-04:00 GetGCHeapData: HRESULT=E_FAIL
+2026-10-01T23:41:40.3719411-04:00   ServerMode=0
+2026-10-01T23:41:40.3722316-04:00   GCStructuresValid=0
+2026-10-01T23:41:40.3724607-04:00   HeapCount=0
+2026-10-01T23:41:40.3726751-04:00   MaxGeneration=0
+2026-10-01T23:41:40.3733426-04:00 GetCommonMethodTables: HRESULT=S_OK
+2026-10-01T23:41:40.3736809-04:00   ArrayMethodTable=0x7ffab88a2308
+2026-10-01T23:41:40.3738580-04:00   StringMethodTable=0x7ffab88cdd88
+2026-10-01T23:41:40.3740146-04:00   ObjectMethodTable=0x7ffab87d4738
+2026-10-01T23:41:40.3742135-04:00   ExceptionMethodTable=0x7ffab88d05d8
+2026-10-01T23:41:40.3744001-04:00   FreeMethodTable=0x1ecec31fca0
+2026-10-01T23:41:40.4021851-04:00 System.IO.InvalidDataException: Unable to create a ClrHeap for this runtime. This may indicate that the CLR wasn't fully initialized at the time the dump was taken, or the dump is corrupt or truncated.
+   at Microsoft.Diagnostics.Runtime.ClrRuntime.get_Heap()
+   at ClockProbe.Program.Scan(Int32 pid) in C:\Users\peter\Desktop\Code\osureplay\clock-probe\Program.cs:line 88
+   at ClockProbe.Program.Main(String[] args) in C:\Users\peter\Desktop\Code\osureplay\clock-probe\Program.cs:line 66
